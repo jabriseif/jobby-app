@@ -1,0 +1,49 @@
+.filters-group-container {
+  margin-top: 16px;
+  height: 100%;
+  width: 95%;
+  border-radius: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 25%;
+    max-width: 280px;
+    min-width: 240px;
+    flex-shrink: 0;
+    margin-top: 0px;
+  }
+}
+
+.rating-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+
+.ratings-list {
+  padding-left: 0px;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.employmentType {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f1f5f9;
+  margin-left: 10px;
+}
+
+.employmenttype-list-container {
+  border-top: 1px solid #f1f5f9;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}

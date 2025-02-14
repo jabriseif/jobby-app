@@ -1,0 +1,88 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  padding-top: 10px;
+  width: 100%;
+  background-size: cover;
+  min-height: 90.2vh;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  }
+}
+
+.home-content {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 90%;
+  padding: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 49%;
+  }
+}
+
+.home-heading {
+  color: #ffffff;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 28px;
+  color: #7e858e;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}
+
+.shop-now-button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  background-color: #6366f1;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    width: 120px;
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+}

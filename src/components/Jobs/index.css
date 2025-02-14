@@ -1,0 +1,312 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    flex-grow: 1;
+  }
+}
+.all-products-container {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 100%;
+  }
+}
+
+.products-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0;
+  width: 100%;
+}
+
+.no-products-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-view {
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+    margin-top: 0px;
+  }
+}
+
+.no-products-img {
+  width: 250px;
+  height: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-img {
+    width: 459px;
+    height: 315px;
+  }
+}
+
+.no-products-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-heading {
+    margin-top: 32px;
+    font-size: 24px;
+  }
+}
+
+.no-products-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-description {
+    margin-top: 12px;
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-error-view-container {
+    margin-top: 0px;
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 0;
+  }
+}
+
+.products-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-img {
+    margin-top: 30px;
+    width: 500px;
+    height: 350px;
+  }
+}
+
+.product-failure-heading-text {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text {
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: 500;
+  }
+}
+
+.products-failure-description {
+  text-align: center;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description {
+    font-size: 15px;
+    width: 60%;
+    max-width: 466px;
+    margin-top: 0px;
+  }
+}
+.retry-btn {
+  font-size: 13px;
+  color: #f1f5f9;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6366f1;
+  cursor: pointer;
+  outline: none;
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 100%;
+  }
+}
+
+.search-jobs-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .search-jobs-container {
+    width: 95%;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #272727;
+  padding: 0px;
+  width: 100%;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 40%;
+  }
+}
+.search-input {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  background-color: transparent;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.search-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+  width: 15%;
+  height: 100%;
+  padding: 9px;
+  margin: 0px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 767px) {
+  .search-icon-container {
+    width: 10%;
+  }
+}
+
+.search-icon {
+  color: #7e858e;
+  height: 20px;
+  width: 20px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  padding: 30px 30px 30px 15px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  margin-top: 0px;
+  min-height: 200px;
+}
+
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+.profile-name {
+  font-size: 22px;
+  color: #6366f1;
+  font-weight: 600;
+  width: 100%;
+  margin: 10px 0px;
+}
+@media screen and (max-width: 767px) {
+  .profile-name {
+    font-size: 18px;
+  }
+}
+
+.profile-bio {
+  font-size: 15px;
+  color: #475569;
+}
+@media screen and (max-width: 767px) {
+  .profile-bio {
+    font-size: 13px;
+  }
+}
+.profile-failure-container {
+  background: none;
+  justify-content: center;
+  align-items: center;
+}
+.jobs-filters-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 80px 0px;
+}
+@media screen and (max-width: 767px) {
+  .jobs-filters-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+}
